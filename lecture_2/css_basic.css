@@ -1,0 +1,55 @@
+*{
+    color: blue;
+
+    /*this will style every thing which is not specified perticularly  */
+}
+p{
+    color: #9e8282;
+    font-size: 30px;
+
+    /* by using this syntax you can style the every paragrah which is present in 
+    your code */
+}
+#p1{
+    color: aqua;
+    font-size: larger
+
+    /*if you want to change the perticular para given it a attribute id and
+    use #"value given to the attribute"  */
+    
+}
+#p2{
+    color: blue;
+    
+}
+.list{
+    color: black
+
+    /*if you want to change in attribute like class then .operator use ."value of the class"  */
+}
+#item{
+color: chocolate;
+}
+input[type="text" ]
+    color: chartreuse;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: rgb(46, 165, 42);
+}
+tr:nth-child(2n){
+    color: yellow;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}

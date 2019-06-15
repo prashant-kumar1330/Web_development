@@ -1,0 +1,22 @@
+tr:nth-child(n){
+    color: gray;
+}
+tr>td:hover{
+    color: black;
+    border-block-color: 
+}
+table{
+    border-collapse: collapse
+}
+tr{
+    border: 1px solid black;
+}
+#h1{
+    padding-right: 100px;
+}
+#h2{
+    padding-right: 100px;
+}
+#h3{
+    padding-right: 100px;
+}

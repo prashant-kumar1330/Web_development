@@ -1,0 +1,14 @@
+.div{
+    margin: 20px;
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    padding: 10px;
+    border: solid black 2px;
+}
+#div2{
+    background-color: blue;
+}
+#div3{
+    background-color: pink;
+}

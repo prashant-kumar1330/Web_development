@@ -1,0 +1,18 @@
+div p{
+  color: blue; 
+}
+div > p{
+    color: red;
+}
+div+p{
+    color: green;
+}
+div~p{ 
+    color: cyan;
+}
+li ol {
+    display: none;
+}
+li:hover > ol{
+    display: block;
+}

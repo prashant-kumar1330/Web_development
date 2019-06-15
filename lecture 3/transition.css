@@ -1,0 +1,23 @@
+div{
+    margin:20px;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    box-shadow: 5px 5px 5px gray;
+    transition: 1s
+}
+#div2:hover{
+    transform: scale(2)
+}
+#div3:hover{
+transform: rotate(45deg);
+border: black  solid 2px;
+}
+#div6:hover{
+    sha
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: grey 10px 10px 10px;
+    
+    
+}
