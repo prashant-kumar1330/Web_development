@@ -1,0 +1,19 @@
+#div{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: solid black 2px;
+    
+}
+
+/* media querry is used to set a web page in diffrent screen  */
+@media (max-width: 1500px) and (min-width: 1000px){
+    #div{
+        background-color: blue;
+    }
+}
+@media (min-width:750px) and (max-width: 500px){
+    #div{
+        background-color: red;
+    }
+}

@@ -1,0 +1,59 @@
+
+
+
+.div1{
+ height: 50px;
+ width: 50px;
+ background-color: brown;
+ border: solid black 2px;
+ margin: 10px;
+
+}
+#div3{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    border: solid black 2px;
+    margin: 10px;
+    position: static;
+
+    /*static is default position   */
+
+}
+#div4{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+
+    /*fixed position means its fixed it on the 
+    screen and you can set your parameters t
+    where you want to fix  */
+
+}
+#div5{
+    position: relative;
+    
+    left: 400px;
+
+    /* relative means it shifts it to its static
+    position but space of this block is not 
+    occupied by another block */
+
+}
+#div9{
+    position: absolute;
+    
+    left: 400px;
+    /* absolute	The element is positioned 
+    relative to its first positioned (not static) ancestor element
+    and space of the box is alloted by another block  */
+}
+#div7{
+    position: sticky;
+    top: 20px;
+    left: 300px;
+
+    /*sticky	The element is positioned based on the user's scroll position
+ A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place  */
+}
+

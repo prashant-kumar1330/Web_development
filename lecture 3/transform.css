@@ -7,13 +7,22 @@ div{
  
 #div1{
     transform: scale(2)
+
+    /* this will multiply the normal size with the given value */
 }
 #div4{
     transform: rotate(45deg)
 }
 #div6{
     transform: translate(2px)
+
+    /* The translate() method moves an element from its current position */
 }
 #div5{
     transform: skewx(45deg);
+
+    /* skew method skew an element into a given angle */
+}
+#div7{
+    transform: skewY(-10deg);
 }

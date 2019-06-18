@@ -1,0 +1,21 @@
+#container{
+    height: 1000px;
+ width: 1000px;
+ background-color: cyan;
+ border: solid black 5px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-content: space-between;
+ align-items: center;
+ height: 400px;
+}
+.items{
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    border: dotted red 2px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,14 +1,33 @@
 div p{
   color: blue; 
+  /* this will add all the decendent children
+like all the paragraph present in the div and apply the changes
+this is called desendent sibling selector 
+the following example select all <p> elements inside <div> elemests
+*/
 }
+
 div > p{
     color: red;
+
+    /* this will add only its next children and aplly changes to it
+    this is called child selector */
 }
 div+p{
     color: green;
+
+    /*this will add a div and a pragraph which is next to it but it will not add 
+    something written after some elements 
+    this is called addjacent sibling selector */
 }
 div~p{ 
     color: cyan;
+
+    /* this will add any paragraph no matter where is it present 
+    this is general sibling selector 
+    The general sibling selector selects all elements that
+     are siblings of a specified element.
+      */
 }
 li ol {
     display: none;

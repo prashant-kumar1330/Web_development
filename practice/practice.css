@@ -1,0 +1,27 @@
+body{
+    background-size: cover;
+}
+#top ul li{
+   
+  font-size: 30px;
+  color:black;
+  width: 120px;
+  transition: 1s;
+ 
+  text-align: center;
+  float: left
+}
+#top ul li ul{
+    background-color:dimgrey;
+     background-color: transparent 20px;
+     text-align: center;
+    height: 35px;
+    width: 70px;
+    display: none;
+}
+
+#top ul li:hover ul{
+  color: red;
+ display: block;
+ 
+}
