@@ -1,0 +1,10 @@
+#inputbox{
+    width: 35%;
+
+}
+#body{
+    background-color: coral;
+}
+.strike{
+    text-decoration: line-through;
+}
