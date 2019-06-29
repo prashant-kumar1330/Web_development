@@ -13,25 +13,33 @@
         <input type="text" name="show" id="answerbox" placeholder="enter your data" value=""></input>
         <br>
 <div id="calci" >
-  <button class="calci-buttons" onclick="forms.show.value += '1'" value="1">1</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '2'"  value="2">2</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '3'" value="3">3</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '*'"  value="*">*</button>
+        <input  type="button" class="calci-buttons" id="allclr"  value="AC" onclick="forms.show.value = ''" ></input>
+        <input  type="button" class="calci-buttons" id="clr" value="C" onclick="forms.show.value =''" ></input>
+        <input  type="button" class="calci-buttons"  value="3" onclick="forms.show.value += '3'" ></input>
+        <input  type="button" class="calci-buttons operator"   value="*" onclick="forms.show.value += '*'" ></input>
+
+        <br>
+    <input  type="button" class="calci-buttons"  value="1" onclick="forms.show.value += '1'" ></input>
+  <input  type="button" class="calci-buttons" value="2" onclick="forms.show.value += '2'" ></input>
+  <input  type="button" class="calci-buttons"  value="3" onclick="forms.show.value += '3'" ></input>
+  <input  type="button" class="calci-buttons operator"  value="/" onclick="forms.show.value += '/'" ></input>
+  
   <br>
-  <button  class="calci-buttons" onclick="forms.show.value += '4'"  value="4" >4</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '5'"  value="5">5</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '6'"  value="6">6</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '/'"  value="/">/</button>
+  <input  type="button" class="calci-buttons"  value="4" onclick="forms.show.value += '4'" ></input>
+  <input  type="button" class="calci-buttons"  value="5" onclick="forms.show.value += '5'" ></input>
+  <input  type="button" class="calci-buttons"  value="6" onclick="forms.show.value += '6'" ></input>
+  <input  type="button" class="calci-buttons operator"   value="-" onclick="forms.show.value += '-'" ></input>
   <br>
-  <button  class="calci-buttons" onclick="forms.show.value += '7'"  value="7">7</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '8'"  value="8">8</button>
-  <button  class="calci-buttons" onclick="forms.show.value  += '9'"  value="9">9</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '-'" value="-">-</button>
+  <input  type="button" class="calci-buttons"  value="7" onclick="forms.show.value += '7'" ></input>
+  <input  type="button" class="calci-buttons"  value="8" onclick="forms.show.value += '8'" ></input>
+  <input  type="button" class="calci-buttons"  value="9" onclick="forms.show.value += '9'" ></input>
+  <input  type="button" class="calci-buttons operator"  value="+" onclick="forms.show.value += '+'" ></input>
   <br>
-  <button  class="calci-buttons" onclick="forms.show.value += '0'"  value="0">0</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '.'" value=".">.</button>
-  <button  class="calci-buttons" onclick="forms.show.value += ''" id="equal"  value="=">=</button>
-  <button  class="calci-buttons" onclick="forms.show.value += '+'"  value="+">+</button>
+  <input  type="button" class="calci-buttons" id="zero" value="0" onclick="forms.show.value += '0'" ></input>
+  <input  type="button" class="calci-buttons"  value="." onclick="forms.show.value += '.'" ></input>
+  <input  type="button" class="calci-buttons" id="equal" value="=" onclick="cal()" ></input>
+  
+ 
 </div>
   
     </form>

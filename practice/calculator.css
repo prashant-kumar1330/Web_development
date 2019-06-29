@@ -16,7 +16,7 @@ body{
     
 
 #calci{
-    height:300px;
+    height:373.5px;
     width: 400px;
     background-color: coral;
     margin-left: 35%;
@@ -28,8 +28,15 @@ body{
 .calci-buttons{
     height: 75px;
     width: 100px;
-    border: black solid 1.2px;
+    border: black solid 1.5px;
 }
 #equal{
+    background-color: orange;
+}
+
+#zero{
+    width: 200px;
+}
+.operator{
     background-color: orange;
 }
