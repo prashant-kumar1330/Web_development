@@ -10,28 +10,28 @@
 </head>
 <body>
     <form name="forms">
-        <input type="text" name="show" id="answerbox" placeholder="enter your data"></input>
+        <input type="text" name="show" id="answerbox" placeholder="enter your data" value=""></input>
         <br>
 <div id="calci" >
-  <button class="calci-buttons">1</button>
-  <button  class="calci-buttons" >2</button>
-  <button  class="calci-buttons">3</button>
-  <button  class="calci-buttons">*</button>
+  <button class="calci-buttons" onclick="forms.show.value += '1'" value="1">1</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '2'"  value="2">2</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '3'" value="3">3</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '*'"  value="*">*</button>
   <br>
-  <button  class="calci-buttons" >4</button>
-  <button  class="calci-buttons">5</button>
-  <button  class="calci-buttons">6</button>
-  <button  class="calci-buttons">/</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '4'"  value="4" >4</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '5'"  value="5">5</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '6'"  value="6">6</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '/'"  value="/">/</button>
   <br>
-  <button  class="calci-buttons">7</button>
-  <button  class="calci-buttons">8</button>
-  <button  class="calci-buttons">9</button>
-  <button  class="calci-buttons">-</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '7'"  value="7">7</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '8'"  value="8">8</button>
+  <button  class="calci-buttons" onclick="forms.show.value  += '9'"  value="9">9</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '-'" value="-">-</button>
   <br>
-  <button  class="calci-buttons">0</button>
-  <button  class="calci-buttons">.</button>
-  <button  class="calci-buttons">=</button>
-  <button  class="calci-buttons">+</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '0'"  value="0">0</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '.'" value=".">.</button>
+  <button  class="calci-buttons" onclick="forms.show.value += ''" id="equal"  value="=">=</button>
+  <button  class="calci-buttons" onclick="forms.show.value += '+'"  value="+">+</button>
 </div>
   
     </form>

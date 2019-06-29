@@ -9,12 +9,27 @@ body{
 #answerbox{
     text-align: center;
     margin-left: 35%;
-    width: 400px ;
-    height: 35px
+    width: 395px ;
+    height: 45px
 }
+
+    
+
 #calci{
+    height:300px;
+    width: 400px;
+    background-color: coral;
+    margin-left: 35%;
+    display: flex;
+    flex-wrap: wrap
+   
     
 }
-.claci-buttons{
-    height: 35px;
+.calci-buttons{
+    height: 75px;
+    width: 100px;
+    border: black solid 1.2px;
+}
+#equal{
+    background-color: orange;
 }
