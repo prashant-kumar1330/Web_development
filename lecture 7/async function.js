@@ -17,4 +17,4 @@ clearInterval(id)
     } ,500);
     console.log(x)
 }, 1000); 
-console.log(new Date())*/
+console.log(new Date())*/ 
