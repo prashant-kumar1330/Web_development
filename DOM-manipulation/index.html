@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para1" class="para"> para 1</p>
+    <p id="para2" class="para"> para2</p>
+    <p > para 3</p>
+    <div id="div">some data in this div</div>
+    <span id="span"> a span is here</span>
+    <input id="inpbtn"> 
+    <button id="btn"> button</button>
+    
+
+</body>
+
+</html>
+<!-- 
+/*document
+#document
+document.location
+Location {replace: ƒ, href: "http://127.0.0.1:5500/DOM-manipulation/index.html", ancestorOrigins: DOMStringList, origin: "http://127.0.0.1:5500", protocol: "http:", …}
+document.URL
+"http://127.0.0.1:5500/DOM-manipulation/index.html"
+document.getElementById('para1')
+<p id=​"para1" class=​"para">​ para 1​</p>​
+document.getElementById('par')
+null
+document.getElementById('para2')
+<p id=​"para2" class=​"para">​ para2​</p>​
+document.getElementsByClassName('para')
+HTMLCollection(2) [p#para1.para, p#para2.para, para1: p#para1.para, para2: p#para2.para]0: p#para1.para1: p#para2.paralength: 2para1: p#para1.parapara2: p#para2.para__proto__: HTMLCollection
+document.getElementByTagName('div')
+VM1778:1 Uncaught TypeError: document.getElementByTagName is not a function
+    at <anonymous>:1:10
+(anonymous) @ VM1778:18*/ -->
+<!-- document.getElementsByTagName('p')[1]
+<p id=​"para2" class=​"para">​ para2​</p>​
+let p1=document.getElementsByTagName('p')[1]
+undefined
+p1
+<p id=​"para2" class=​"para">​ para2​</p>​
+p1.innerText
+"para2"
+p1.innerHTML
+" para2"
+p1.outerText
+"para2"
+p1.outerHTML
+"<p id="para2" class="para"> para2</p>"
+p1.innerText=hello i m changed 
+VM2665:1 Uncaught SyntaxError: Unexpected identifier
+p1.innerText="hello i m changed"
+"hello i m changed"
+p1.innerHTML="hello i m <b>changed</b>"
+"hello i m <b>changed</b>"
+p1.innerText="hello i m new here"
+"hello i m new here" -->
