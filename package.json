@@ -16,8 +16,10 @@
   },
   "homepage": "https://github.com/prashant-kumar1330/Web_development#readme",
   "dependencies": {
+    "create-react-app": "^3.1.1",
     "express": "^4.17.1",
-    "hbs": "^4.0.4"
+    "hbs": "^4.0.4",
+    "react": "^16.9.0"
   },
   "devDependencies": {},
   "description": ""
